@@ -39,3 +39,24 @@ print(fruits)
 # Remove element by index number
 fruits.pop(0)
 print(fruits)
+
+# Slice
+special_fruit = fruits[0:2]
+print(special_fruit)
+
+# Element Search
+fruit_search = 'apple' in fruits
+print(fruit_search)
+
+# index
+index = fruits.index('lemon')
+print(index)
+
+# sort
+age = [12, 23, 44, 5, 67]
+age_sort = age.sort()
+print(age_sort)
+
+# clear
+age.clear()
+print(age)
